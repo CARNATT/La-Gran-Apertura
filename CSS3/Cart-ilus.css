@@ -1,0 +1,78 @@
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+
+.oculto_3 {position: absolute; top: -800px;
+color: #fff; transition: top 2s;}
+#E_:checked + .oculto_3 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="Blog_1"]:checked ~ .Super:not([data-category~="Blog_1"]),
+[value="Blog_2"]:checked ~ .Super:not([data-category~="Blog_2"]),
+[value="Blog_3"]:checked ~.Super:not([data-category~="Blog_3"]),
+[value="Blog_4"]:checked ~ .Super:not([data-category~="Blog_4"]),
+[value="Blog_5"]:checked ~ .Super:not([data-category~="Blog_5"]),
+[value="Blog_6"]:checked ~ .Super:not([data-category~="Blog_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="Blog_1"]:checked ~ .botones [for="El_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_2"]:checked ~ .botones [for="El_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_3"]:checked ~ .botones [for="El_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_4"]:checked ~ .botones [for="El_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_5"]:checked ~ .botones [for="El_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_6"]:checked ~ .botones [for="El_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+/* text-decoration: underline solid 2px #fff; */
+@media screen and (max-width: 1220px){
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+
+.oculto_3 {position: absolute; top: -1100px;
+color: #fff; transition: top 2s;}
+#E_:checked + .oculto_3 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="Blog_1"]:checked ~ .Super:not([data-category~="Blog_1"]),
+[value="Blog_2"]:checked ~ .Super:not([data-category~="Blog_2"]),
+[value="Blog_3"]:checked ~.Super:not([data-category~="Blog_3"]),
+[value="Blog_4"]:checked ~ .Super:not([data-category~="Blog_4"]),
+[value="Blog_5"]:checked ~ .Super:not([data-category~="Blog_5"]),
+[value="Blog_6"]:checked ~ .Super:not([data-category~="Blog_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="Blog_1"]:checked ~ .botones [for="El_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_2"]:checked ~ .botones [for="El_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_3"]:checked ~ .botones [for="El_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_4"]:checked ~ .botones [for="El_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_5"]:checked ~ .botones [for="El_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_6"]:checked ~ .botones [for="El_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+}

@@ -1,0 +1,80 @@
+
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+.grupo {}
+.oculto_2 {position: absolute; top: -800px;
+color: #fff; transition: top 2s;}
+#W_:checked + .oculto_2 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="blog_1"]:checked ~ .SUPER:not([data-category~="blog_1"]),
+[value="blog_2"]:checked ~ .SUPER:not([data-category~="blog_2"]),
+[value="blog_3"]:checked ~.SUPER:not([data-category~="blog_3"]),
+[value="blog_4"]:checked ~ .SUPER:not([data-category~="blog_4"]),
+[value="blog_5"]:checked ~ .SUPER:not([data-category~="blog_5"]),
+[value="blog_6"]:checked ~ .SUPER:not([data-category~="blog_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="blog_1"]:checked ~ .botones [for="el_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_2"]:checked ~ .botones [for="el_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_3"]:checked ~ .botones [for="el_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_4"]:checked ~ .botones [for="el_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_5"]:checked ~ .botones [for="el_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_6"]:checked ~ .botones [for="el_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+/* text-decoration: underline solid 2px #fff; */
+@media screen and (max-width: 1220px){
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+.grupo {}
+.oculto_2 {position: absolute; top: -1100px;
+color: #fff; transition: top 2s;}
+#W_:checked + .oculto_2 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="blog_1"]:checked ~ .SUPER:not([data-category~="blog_1"]),
+[value="blog_2"]:checked ~ .SUPER:not([data-category~="blog_2"]),
+[value="blog_3"]:checked ~.SUPER:not([data-category~="blog_3"]),
+[value="blog_4"]:checked ~ .SUPER:not([data-category~="blog_4"]),
+[value="blog_5"]:checked ~ .SUPER:not([data-category~="blog_5"]),
+[value="blog_6"]:checked ~ .SUPER:not([data-category~="blog_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="blog_1"]:checked ~ .botones [for="el_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_2"]:checked ~ .botones [for="el_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_3"]:checked ~ .botones [for="el_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_4"]:checked ~ .botones [for="el_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_5"]:checked ~ .botones [for="el_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_6"]:checked ~ .botones [for="el_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+}

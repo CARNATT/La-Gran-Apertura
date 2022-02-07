@@ -1,0 +1,138 @@
+@media screen and (max-width: 1220px){
+
+input {display: none;}
+html {scroll-behavior: smooth;}
+:root {
+--ColorUno: #cb69c1;
+--ColorDos: #6c72cb;
+--ColorTres: #000;
+
+}
+body {background: var(--ColorDos); position: relative;
+margin: 0px; overflow: hidden; }
+
+
+/* LOGO */
+.LOGO_ {width: 200px; margin: 30px 0px 0px 8px;}
+.LOGO_::selection {background: transparent;}
+/* LOGO */
+
+/* IMÁGENES DE ELEGÍ */
+.IMAG{width: 300px; border-radius: 30px; margin: 10px;
+background: #b78; padding: 3px;transition: right 2s;
+animation: fluido 10s ease-in-out infinite;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+.IMAG::selection {background: transparent;}
+/* IMÁGENES DE ELEGÍ */
+
+/* algo importante */
+.GRUPO_DISPLEY{
+display: flex;justify-content: space-between;
+overflow: scroll;}
+.elem {width: 250px; border-radius: 20px; margin: 10px;}
+.elem_ {
+width: 60%;margin: 20px 0px 0px 0px;border-radius: 30px;
+background: #b78; padding: 3px;transition: right 2s;
+animation: fluido 10s ease-in-out infinite;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+/* boton de selección de partes de la pág */
+.BETA::selection {background: transparent;}
+.BETA {font-size: 20px;}
+/* boton de selección de partes de la pág */
+
+/* algo importante */
+
+/* BOTONES DE LAS CARTAS */
+.BTS_ANIMACION {font-size: 20px;padding: 10px;
+border-radius: 10px;border: solid 2px #555161;}
+/* BOTONES DE LAS CARTAS */
+
+
+
+
+
+
+/* -----TEXTO DE LA PÁG WEB------ */
+.GETP {color: var(--ColorTres);
+position: absolute; bottom: 60px;
+left: 40px;font-size: 20px;}
+.GETP_ { color: var(--ColorTres);position: absolute;bottom: 60px;
+left: 40px;font-size: 20px;}
+.GETP::selection {background: transparent;}
+.GETP_::selection{background: transparent;}
+.BATM{position: relative;}
+.ÍNDICE {text-align: left;
+padding: 10px 0px 0px 15px; font-size: 20px;}
+.X_P {font-size: 50px;}
+.TEXTO {text-align: left; padding: 10px 0px 0px 15px; }
+.TEXTO_ {text-align: left; padding: 0px 0px 0px 15px; }
+/* -----TEXTO DE LA PÁG WEB------ */
+
+
+
+
+
+/* -----ANIMACION------ */
+@keyframes fluido {
+0% { background-position: 0 50% }
+50% { background-position: 100% 50% }
+100% { background-position: 0 50% }}
+/* -----ANIMACION------ */
+
+/* ----+------+---- ANIMACIÓN ------+---------+------- */
+ @keyframes OKKk {
+ 0% {color: #FF0000;}
+ 20% {color: #FAFF00;}
+ 40% {color: #06FF00;}
+ 60% {color: #00FFF0;}
+ 80% {color: #001AFF;}
+ 90% {color: #FF00F5;}
+ 100% {color: #FF0000;}}
+/* ----+------+---- ANIMACIÓN ------+---------+------- */
+
+
+/* GLASS DE LA PÁG WEB */
+.SALIENTE_ {text-align: center;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 0px 0px 40px 40px;
+padding: 30px 0px 20px 0px;}
+/* GLASS DE LA PÁG WEB */
+
+
+/* -----[SECCIONES DE LA PÁG WEB]-------- */
+[value="UNO"]:checked ~ .Contenido .BATMAN:not([data-category~="UNO"]),
+[value="DOS"]:checked ~ .Contenido .BATMAN:not([data-category~="DOS"]),
+[value="TRES"]:checked ~ .Contenido .BATMAN:not([data-category~="TRES"])
+{display: none;}
+
+.BOTONES {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+[value="UNO"]:checked ~ .BOTONES [for="OK"]{
+animation-name: OKKk;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="DOS"]:checked ~ .BOTONES [for="OKK"]{
+animation-name: OKKk;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="TRES"]:checked ~ .BOTONES [for="OKKK"]{
+animation-name: OKKk;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[SECCIONES DE LA PÁG WEB]-------- */
+
+
+/* 
+contenido a revisión
+
+.Contenido {position: relative;}
+.ELEGIR{display: flex;justify-content: space-around;}
+.CONTENIDO {padding: 15px;}
+.GRUPO{overflow: hidden;white-space: normal;}
+
+
+*/
+
+}/* final  */
+
+
