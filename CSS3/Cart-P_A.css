@@ -1,0 +1,39 @@
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+
+.oculto_4 {position: absolute; top: -800px;
+color: #fff; transition: top 2s;}
+#R_:checked + .oculto_4 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="PART_1"]:checked ~ .ACUA:not([data-category~="PART_1"]),
+[value="PART_2"]:checked ~ .ACUA:not([data-category~="PART_2"]),
+[value="PART_3"]:checked ~.ACUA:not([data-category~="PART_3"]),
+[value="PART_4"]:checked ~ .ACUA:not([data-category~="PART_4"]),
+[value="PART_5"]:checked ~ .ACUA:not([data-category~="PART_5"]),
+[value="PART_6"]:checked ~ .ACUA:not([data-category~="PART_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="PART_1"]:checked ~ .botones [for="CUA_"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_2"]:checked ~ .botones [for="CUA_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_3"]:checked ~ .botones [for="CUA_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_4"]:checked ~ .botones [for="CUA_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_5"]:checked ~ .botones [for="CUA_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_6"]:checked ~ .botones [for="CUA_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+/* text-decoration: underline solid 2px #fff; */
