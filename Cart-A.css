@@ -1,0 +1,42 @@
+
+.oculto_ {position: absolute; top: -800px;
+color: #fff; transition: top 2s;}
+#Q_:checked + .oculto_ {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+
+[value="BLOG_1"]:checked ~ .batman:not([data-category~="BLOG_1"]),
+[value="BLOG_2"]:checked ~ .batman:not([data-category~="BLOG_2"]),
+[value="BLOG_3"]:checked ~.batman:not([data-category~="BLOG_3"]),
+[value="BLOG_4"]:checked ~ .batman:not([data-category~="BLOG_4"]),
+[value="BLOG_5"]:checked ~ .batman:not([data-category~="BLOG_5"]),
+[value="BLOG_6"]:checked ~ .batman:not([data-category~="BLOG_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+.BOTONES {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+[value="BLOG_1"]:checked ~ .BOTONES [for="EL_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_2"]:checked ~ .BOTONES [for="EL_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_3"]:checked ~ .BOTONES [for="EL_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_4"]:checked ~ .BOTONES [for="EL_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_5"]:checked ~ .BOTONES [for="EL_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_6"]:checked ~ .BOTONES [for="EL_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+
+
+
+
