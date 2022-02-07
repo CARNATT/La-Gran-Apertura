@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 640px){
+@media screen and (min-width: 300px) and (max-width: 980px){
 input {display: none;}
 html {scroll-behavior: smooth;}
 :root {
