@@ -1,0 +1,283 @@
+
+/* PANTALLAS PEQUEÑO */
+@media screen and (max-width: 600px) {
+input {display: none;}
+html {scroll-behavior: smooth;}
+:root {
+--ColorUno: #cb69c1;--ColorDos: #6c72cb;--ColorTres: #000;}
+body {background: var(--ColorDos); position: relative;
+margin: 0px;}
+
+/* LOGO */
+.LOGO_ {width: 200px; margin: 20px 0px 0px 8px;}
+.LOGO_::selection {background: transparent;}
+/* LOGO */
+
+/* IMPORTANTE */
+.BATM{position: relative;}
+/* IMPORTANTE */
+
+/* IMÁGENES DE ELEGÍ */
+.IMAG{width: 300px; border-radius: 30px; margin: 10px;
+background: #b78; padding: 3px;transition: right 2s;
+animation: fluido 10s ease-in-out infinite;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+.IMAG::selection {background: transparent;}
+/* IMÁGENES DE ELEGÍ */
+
+
+
+/* BOTONES DE LAS CARTAS */
+.BTS_ANIMACION {font-size: 20px;padding: 10px;
+border-radius: 10px;border: solid 2px #555161;}
+/* BOTONES DE LAS CARTAS */
+
+
+
+/* cosas importantes */
+.GRUPO_DISPLEY{
+display: flex;justify-content: space-between;
+overflow: scroll;}
+.elem {width: 250px; border-radius: 20px; margin: 10px;}
+.elem_ {
+width: 60%;margin: 20px 0px 0px 0px;border-radius: 30px;
+background: #b78; padding: 3px;transition: right 2s;
+animation: fluido 10s ease-in-out infinite;
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);background-size: 1000px;}
+/* boton de selección de partes de la pág */
+.BETA::selection {background: transparent;}
+.BETA {font-size: 20px;}
+/* boton de selección de partes de la pág */
+/* cosas importantes */
+
+
+
+
+/* -----TEXTO DE LA PÁG WEB------ */
+.GETP {color: var(--ColorTres);
+position: absolute; bottom: 60px;left: 40px;font-size: 20px;}
+.GETP_ { color: var(--ColorTres);position: absolute;
+bottom: 60px;left: 40px;font-size: 20px;}
+.GETP::selection {background: transparent;}
+.GETP_::selection{background: transparent;}
+.BATM{position: relative;}
+.ÍNDICE {text-align: left;
+padding: 10px 0px 0px 0px; font-size: 20px;}
+.X_P {font-size: 50px;}
+.TEXTO {text-align: left; padding: 10px 0px 0px 0px;}
+.TEXTO_ {text-align: left;
+
+}
+/* -----TEXTO DE LA PÁG WEB------ */
+
+
+/* -----ANIMACION------ */
+@keyframes fluido {
+0% { background-position: 0 50% }
+50% { background-position: 100% 50% }
+100% { background-position: 0 50% }}
+/* -----ANIMACION------ */
+
+/* ----+------+---- ANIMACIÓN ------+---------+------- */
+ @keyframes OKKk {
+ 0% {color: #FF0000;}
+ 20% {color: #FAFF00;}
+ 40% {color: #06FF00;}
+ 60% {color: #00FFF0;}
+ 80% {color: #001AFF;}
+ 90% {color: #FF00F5;}
+ 100% {color: #FF0000;}}
+/* ----+------+---- ANIMACIÓN ------+---------+------- */
+
+
+/* GLASS DE LA PÁG WEB */
+.SALIENTE_ {text-align: center;
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 0px 0px 40px 40px;
+
+padding: 20px;
+
+}
+/* GLASS DE LA PÁG WEB */
+
+
+
+/*  */
+/*  */
+
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+.grupo {}
+.oculto_2 {position: absolute; top: -1000px;
+color: #fff; transition: top 2s;}
+#W_:checked + .oculto_2 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; 
+
+
+
+}
+
+/*  */
+[value="blog_1"]:checked ~ .SUPER:not([data-category~="blog_1"]),
+[value="blog_2"]:checked ~ .SUPER:not([data-category~="blog_2"]),
+[value="blog_3"]:checked ~.SUPER:not([data-category~="blog_3"]),
+[value="blog_4"]:checked ~ .SUPER:not([data-category~="blog_4"]),
+[value="blog_5"]:checked ~ .SUPER:not([data-category~="blog_5"]),
+[value="blog_6"]:checked ~ .SUPER:not([data-category~="blog_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="blog_1"]:checked ~ .botones [for="el_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_2"]:checked ~ .botones [for="el_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_3"]:checked ~ .botones [for="el_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_4"]:checked ~ .botones [for="el_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_5"]:checked ~ .botones [for="el_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="blog_6"]:checked ~ .botones [for="el_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+/*  */
+/*  */
+
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+.oculto_3 {position: absolute; top: -1000px;
+color: #fff; transition: top 2s;}
+#E_:checked + .oculto_3 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="Blog_1"]:checked ~ .Super:not([data-category~="Blog_1"]),
+[value="Blog_2"]:checked ~ .Super:not([data-category~="Blog_2"]),
+[value="Blog_3"]:checked ~.Super:not([data-category~="Blog_3"]),
+[value="Blog_4"]:checked ~ .Super:not([data-category~="Blog_4"]),
+[value="Blog_5"]:checked ~ .Super:not([data-category~="Blog_5"]),
+[value="Blog_6"]:checked ~ .Super:not([data-category~="Blog_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="Blog_1"]:checked ~ .botones [for="El_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_2"]:checked ~ .botones [for="El_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_3"]:checked ~ .botones [for="El_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_4"]:checked ~ .botones [for="El_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_5"]:checked ~ .botones [for="El_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="Blog_6"]:checked ~ .botones [for="El_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+/*  */
+/*  */
+/*  */
+
+
+.botones {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+
+.oculto_4 {position: absolute; top: -1000px;
+color: #fff; transition: top 2s;}
+#R_:checked + .oculto_4 {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+/*  */
+[value="PART_1"]:checked ~ .ACUA:not([data-category~="PART_1"]),
+[value="PART_2"]:checked ~ .ACUA:not([data-category~="PART_2"]),
+[value="PART_3"]:checked ~.ACUA:not([data-category~="PART_3"]),
+[value="PART_4"]:checked ~ .ACUA:not([data-category~="PART_4"]),
+[value="PART_5"]:checked ~ .ACUA:not([data-category~="PART_5"]),
+[value="PART_6"]:checked ~ .ACUA:not([data-category~="PART_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+[value="PART_1"]:checked ~ .botones [for="CUA_"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_2"]:checked ~ .botones [for="CUA_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_3"]:checked ~ .botones [for="CUA_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_4"]:checked ~ .botones [for="CUA_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_5"]:checked ~ .botones [for="CUA_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="PART_6"]:checked ~ .botones [for="CUA_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+
+/*  */
+/*  */
+/*  */
+
+
+
+.oculto_ {position: absolute; top: -1000px;
+color: #fff; transition: top 2s;}
+#Q_:checked + .oculto_ {position: absolute; top: 0px;
+color: #fff;transition: top 2s; }
+
+[value="BLOG_1"]:checked ~ .batman:not([data-category~="BLOG_1"]),
+[value="BLOG_2"]:checked ~ .batman:not([data-category~="BLOG_2"]),
+[value="BLOG_3"]:checked ~.batman:not([data-category~="BLOG_3"]),
+[value="BLOG_4"]:checked ~ .batman:not([data-category~="BLOG_4"]),
+[value="BLOG_5"]:checked ~ .batman:not([data-category~="BLOG_5"]),
+[value="BLOG_6"]:checked ~ .batman:not([data-category~="BLOG_6"])
+{display: none;}
+
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+.BOTONES {display: flex;justify-content: space-around;
+padding: 10px 0px;}
+[value="BLOG_1"]:checked ~ .BOTONES [for="EL_1"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_2"]:checked ~ .BOTONES [for="EL_2"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_3"]:checked ~ .BOTONES [for="EL_3"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_4"]:checked ~ .BOTONES [for="EL_4"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_5"]:checked ~ .BOTONES [for="EL_5"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+[value="BLOG_6"]:checked ~ .BOTONES [for="EL_6"]{
+animation-name: OKKk; background: #928ba7;
+animation-duration: 5s; animation-iteration-count: infinite;}
+/* -----[ANIMACIÓN DE EFECTOS]-------- */
+
+
+
+
+
+}
