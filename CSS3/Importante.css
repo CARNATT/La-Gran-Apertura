@@ -48,6 +48,11 @@ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);backgrou
 .BETA::selection {background: transparent;}
 .BETA {font-size: 20px;}
 /* boton de selección de partes de la pág */
+
+.TEXTO_COMANDO {background: blue;}
+
+
+
 /* cosas importantes */
 
 
@@ -66,7 +71,7 @@ padding: 10px 0px 0px 0px; font-size: 20px;}
 .X_P {font-size: 50px;}
 .TEXTO {text-align: left; padding: 10px 0px 0px 0px;}
 .TEXTO_ {text-align: left;
-
+background: red;
 }
 /* -----TEXTO DE LA PÁG WEB------ */
 
@@ -255,7 +260,7 @@ color: #fff;transition: top 2s; }
 
 /* -----[ANIMACIÓN DE EFECTOS]-------- */
 .BOTONES {display: flex;justify-content: space-around;
-padding: 10px 0px;}
+padding: 10px 0px; background: yellow;}
 [value="BLOG_1"]:checked ~ .BOTONES [for="EL_1"]{
 animation-name: OKKk; background: #928ba7;
 animation-duration: 5s; animation-iteration-count: infinite;}
